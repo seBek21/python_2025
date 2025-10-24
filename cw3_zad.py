@@ -43,7 +43,8 @@ f(x) = (sin(π x) + cos(x²)) / (x! + √|x| - e^(-x))
 
 '''
 Zadanie 8.
-Napisz minutnik, która przyjmuje od użytkownika czas podany w formacie'''
+Napisz minutnik, która przyjmuje od użytkownika czas podany w formacie [X,Y,Z]
+X=liczba h, Y=liczba minut, Z=liczba sekund'''
 
 ''''
 Zadanie 9 – Mini ruletka
@@ -51,9 +52,8 @@ Napisz funkcję `mini_ruletka()`, która symuluje prostą grę w ruletkę:
 1. Funkcja losuje liczbę całkowitą z przedziału 0–36 (kolory ruletki: czerwony/ czarny/ zielony).  
    - 0 jest zawsze **zielone**.  
    - Liczby parzyste > 0 to **czarne**, nieparzyste > 0 to **czerwone**.
-2. Użytkownik typuje liczbę,kolor i zakład:
-    - Liczba: `0–36`  
-    - Kolor: `"czerwony"` lub `"czarny"`  
+2. Użytkownik typuje liczbę i zakład:
+    - Liczba: `0–36`   
     - Zakład: dowolna dodatnia liczba całkowita
 3. Funkcja zwraca:
     - Wylosowaną liczbę i jej kolor.
