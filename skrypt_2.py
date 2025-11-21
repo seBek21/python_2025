@@ -13,3 +13,5 @@ def main():
         except ValueError:
             raise MyError(f"Nieprawidlowy argument: {num_str}")
     print(f"Suma: {suma}")
+if __name__ == "__main__":
+    main()
